@@ -1,0 +1,20 @@
+   1: import bandit
+   2: b = bandit.Bandit(bandit.Bandit.DEFAULT_MEANS)
+   3: b.play(0)
+   4: b.play(1)
+   5: b.summary()
+   6: b.T
+   7: b.S
+   8: b.play(1)
+   9: b.play(1)
+  10: b.play(1)
+  11: b.play(1)
+  12: b.play(1)
+  13: b.play(1)
+  14: b.play(1)
+  15: b.play(1)
+  16: b.summary()
+  17: b.S
+  18: b.T
+  19: b.t
+  20: %history -g -f history.txt

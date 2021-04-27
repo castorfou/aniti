@@ -1,0 +1,21 @@
+# coding: utf-8
+import bandit
+b = bandit.Bandit(bandit.Bandit.DEFAULT_MEANS)
+b.play(0)
+b.play(1)
+b.summary()
+b.T
+b.S
+b.play(1)
+b.play(1)
+b.play(1)
+b.play(1)
+b.play(1)
+b.play(1)
+b.play(1)
+b.play(1)
+b.summary()
+b.S
+b.T
+b.t
+%save -r history2 1-1000

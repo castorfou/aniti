@@ -1,0 +1,8 @@
+name: aniti
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyter_contrib_nbextensions
+  - nb_conda
+prefix: /home/explore/miniconda3/envs/aniti
